@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right, blue, rgb(196, 35, 196));
+    font-family: 'Tiro Bangla', serif;
+    letter-spacing: 3px;
+}
+.header{
+    margin-top: 50px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    line-height: 0.5;
+}
+.tophead{
+    font-size: 50px;
+}
+img{
+    width: 7rem;
+    height: 7rem;
+    border-radius: 100%;
+}
+
+@media screen and (max-width:640px) {
+    body{
+        background-color: blue;
+        background-image: none;
+    }   
+}
+@media screen and (max-width:370px) {
+    .tophead{
+        font-size: 40px;
+    }
+}
